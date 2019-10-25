@@ -3,9 +3,8 @@
 
 <head>
     <title>BIRTHDAY FORM</title>
-    <link rel="stylesheet" type="text.css" href="style.css">
     <link rel="stylesheet" type="text.css" href="css/bootstrap.css">
-
+    <link rel="stylesheet" type="text.css" href="css/style.css">
 </head>
 
 <body>
@@ -20,14 +19,14 @@
                     you will find out your name.
             </p>
             </h2>
-            <form>
+            
                 <table>
                     <tr>
                         <td>
                             Day :
                         </td>
                         <td>
-                            <input type="text" placeholder="Day" name="">
+                            <input type="number" min="1" max="31" required placeholder="Day" name="">
                         </td>
                     </tr>
                     <tr>
@@ -35,7 +34,7 @@
                             Month :
                         </td>
                         <td>
-                            <input type="text" placeholder="Name" name="">
+                            <input type="number" min="1" max="12" required placeholder="Month" name="">
                         </td>
                     </tr>
                     <tr>
@@ -43,7 +42,7 @@
                             Year :
                         </td>
                         <td>
-                            <input type="text" placeholder="Year" name="">
+                            <input type="number" min="1900" required placeholder="Year" name="">
                         </td>
                     </tr>
                     <tr>
@@ -61,7 +60,7 @@
                     </tr>
                     </tr>
                 </table>
-            </form>
+           
         </div>
 </body>
 
