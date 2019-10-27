@@ -1,12 +1,12 @@
 ### PROJECT NAME 
 AKAN BIRTHDAY FORM
 ### PROJECT AUTHOR
-SUAD MOHAMED
+Suad mohamed
 ### DESCRIPTION
 web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name.
 ### TECHNOLOGIES USED
-css- used for styling
-html-used for writting code
-js-used for making website interractive
+1.css- used for styling
+2.html-used for writting code
+3.js-used for making website interractive
 ### LICENCE
-MIT LICENCE
+MIT licence
