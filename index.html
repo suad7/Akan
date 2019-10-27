@@ -3,49 +3,41 @@
 
 <head>
     <title>BIRTHDAY FORM</title>
-    <link rel="stylesheet" type="text.css" href="css/bootstrap.css">
-    <link rel="stylesheet" type="text.css" href="css/style.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <script src="script.js"></script>
-    <div class="container">
-        <div class="row">
-            <h1>BIRTHDAY FORM</h1>
-            <p>
-                <h2> welcome you are at the right place to calculate
-                    your actual birth date, to get your Akan name depending
-                    on your gender and the day you were born in
-                    you will find out your name.
-            </p>
-            </h2>
-            
-            <div class="column">
-                <form action="/action_page.php">
-                    <label for="fname">First Name</label>
-                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
-                    <label for="lname">Last Name</label>
-                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-                    <label for="country">Country</label>
-                    <select id="country" name="country">
-                        <option value="kenya">Kenya</option>
-                        <option value="canada">Canada</option>
-                        <option value="usa">USA</option>
-                    </select>
-                    <label for="subject">Subject</label>
-                    <textarea id="subject" name="subject" placeholder="Write something.."
-                        style="height:170px"></textarea>
-                    <input type="submit" value="Submit">
-                </form>
-            </div>
+    <div class="jumbotron jumbotron-fluid">
+        <h1>AKAN BIRTHDAY FORM</h1>
+    </div>
+    <p>
+        <h2>This application is structed to help the Ghananian community to assign nouns
+            to their children depending on their gender.The names are derived from the day
+            of birth.
+        </h2>
+    </p>
+    <form>
+        Date of Birth:<br>
+        <input type="number" placeholder="DD" id="day" min="1" max="31" required><br>
+        Month of Birth:<br>
+        <input type="number" placeholder="MM" id="month" min="1" max="12" required><br>
+        Year of Birth:<br>
+        <input type="number" placeholder="YY" id="year" min="1900" required><br>
+        <br><br>
+        Choose your gender:<br>
+        <input type="radio" id="gender" name="gender" value="male"> Male<br>
+        <input type="radio" name="gender" value="female"> Female<br>
+        <br>
+        <input type="submit" value="Submit" onclick="result()">
+        <p id="right">All right reserved copyright @Suad</p>
+    </form>
+    </div>
+    <br>
 
-
-
-
-
-
-                        
-        </div>
 </body>
 
 </html>
