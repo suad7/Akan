@@ -1,5 +1,5 @@
 ### PROJECT NAME 
-AKAN BIRTHDAY FORM
+Akan birthday form
 ### PROJECT AUTHOR
 Suad mohamed
 ### DESCRIPTION
