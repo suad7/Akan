@@ -8,5 +8,6 @@ web application that takes a user's birthday and calculates the day of the week 
 - css
 - html
 - javascript
+- bootstrap
 ### LICENCE
 MIT licence 
