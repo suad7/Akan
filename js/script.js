@@ -14,7 +14,7 @@ function onCalculate(){
     //var weekDay = Math.round(( ( (CC/4) - (2 * (CC - 1))) + ((5 * (YY/4)) ) + ((26 * (MM + 1)/10)) + DD ) % 7);
     //if (weekDay === 7){ weekDay = 0; }
     if (male.checked==true) {
-    alert("You were born on " + maleName[results]) + " and you were born on " + daysOfTheWeek[results];
+    alert("You were born on " + maleName[results] + " and you were born on " + daysOfTheWeek[results];
     }
     else if (female.checked==true){
     alert("You were born on " + femaleName[results] + " and you were born on " + daysOfTheWeek[results]);
