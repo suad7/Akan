@@ -14,7 +14,7 @@ your Akan name will be Kwaku and you were born on wednesday
 - or 4/3/1999 female
 your Akan name will be Yaa and you were born on thursday
 ### IMAGE OF THE WEBSITE
-https://raw.githubusercontent.com/suad7/Akan/master/images/screeshot.png
+![](images/screen shot.png)
 ### TECHNOLOGIES USED
 - css
 - html
