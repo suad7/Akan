@@ -11,7 +11,6 @@
 </head>
 
 <body>
-        <script src="./js/script.js" type="text/javascript"></script>
     <div class="jumbotron jumbotron-fluid">
         <h1>AKAN BIRTHDAY FORM</h1>
     </div>
@@ -30,13 +29,14 @@
         <input type="number" placeholder="YY" id="year" min="1900" required><br>
         <br><br>
         Choose your gender:<br>
-        <input type="radio" id="male" name="gender" value="male"> Male<br>
+        <input type="radio" id="male" name="gender" value="male" checked> Male<br>
         <input type="radio" name="gender" value="female" id="female"> Female<br>
         <br>
-        <a href="#" onclick="onCalculate()" value="submit" id="submit" class="btn">SUBMIT</a>
+        <a  onclick="onCalculate()" value="submit" id="submit" class="btn">SUBMIT</a>
         <p id="right">All right reserved copyright @Suad</p>
     </form>
-    
+
+    <script src="./js/script.js" type="text/javascript"></script>
 </body>
 
 </html>
