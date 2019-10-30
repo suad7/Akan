@@ -1,5 +1,6 @@
 ### PROJECT NAME 
 Akan birthday form
+![screenshot](https://github.com/suad7/Akan/blob/master/images/Screen%20Shot.png)
 ### PROJECT AUTHOR
 Suad mohamed
 ### DESCRIPTION
